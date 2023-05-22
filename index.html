@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фото-пазли</title>
+</head>
+<body>
+    <h1>Фото-пазли</h1>
+    <div>
+      <label for="image-select">Оберіть зображення:</label>
+      <select id="image-select">
+        <option value="image1.jpg">Тварини</option>
+        <option value="image2.jpg">Автомобіль</option>
+        <option value="image3.jpg">Природа</option>
+      </select>
+    </div>
+    <div>
+      <label for="difficulty-select">Оберіть рівень складності:</label>
+      <select id="difficulty-select">
+        <option value="easy">Легкий</option>
+        <option value="medium">Середній</option>
+        <option value="hard">Важкий</option>
+      </select>
+    </div>
+        <button id="start-button">Почати гру</button>
+    </div>
+  <div id="puzzle-container">
+    <img src="img/animals.jpg" class="puzzle-piece"/>
+    <img src="img/car.jpeg" class="puzzle-piece" />
+    <img src="img/nature.jpg" class="puzzle-piece" />
+  </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

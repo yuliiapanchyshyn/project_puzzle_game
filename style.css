@@ -1,0 +1,14 @@
+#puzzle-container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+  }
+  .puzzle-piece {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-size: 500px 500px;
+    position: absolute;
+    cursor: move;
+  }
