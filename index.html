@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фото-пазли</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Фото-пазли</h1>
     <div>
       <label for="image-select">Оберіть зображення:</label>
       <select id="image-select">
-        <option value="image1.jpg">Тварини</option>
-        <option value="image2.jpg">Автомобіль</option>
-        <option value="image3.jpg">Природа</option>
+        <option value="img/animals.jpg">Тварини</option>
+        <option value="img/car.jpg">Автомобіль</option>
+        <option value="img/nature.jpg">Природа</option>
       </select>
     </div>
     <div>
@@ -26,11 +27,7 @@
     </div>
         <button id="start-button">Почати гру</button>
     </div>
-  <div id="puzzle-container">
-    <img src="img/animals.jpg" class="puzzle-piece"/>
-    <img src="img/car.jpeg" class="puzzle-piece" />
-    <img src="img/nature.jpg" class="puzzle-piece" />
-  </div>
+  <div id="puzzle-container"></div>
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
